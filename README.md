@@ -73,7 +73,7 @@ Thank you
 
 ✪ How to run UniHub on your system:
 
-1) Download or clone the project:
+1) Download or clone the project: 
 git clone https://github.com/Pritz05/UniHub.git
 cd UniHub
 
