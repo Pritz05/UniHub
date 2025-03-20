@@ -68,15 +68,18 @@ UniHub with its simple, intuitive, and efficient design makes it easier for educ
 
 If you have any suggestions or ideas for improvement, feel free to share.
 
-Thank you
+Thank you.
 
 
 ✪ How to run UniHub on your system:
 
-1) Download or clone the project: 
-git clone https://github.com/Pritz05/UniHub.git
-cd UniHub
+1) Download or clone the project:
+
+git clone https://github.com/Pritz05/UniHub.git.
+
+cd UniHub.
 
 2) Open the basic.html file:
-Just open index.html in your browser, and you're good to go!
+
+Just open index.html in your browser, and you're good to go! 
 Since it's built using pure HTML, CSS, and JavaScript, there’s no need for a backend setup.
