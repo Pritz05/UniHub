@@ -71,7 +71,6 @@ If you have any suggestions or ideas for improvement, feel free to share.
 Thank you
 
 
-
 ✪ How to run UniHub on your system:
 
 1) Download or clone the project:
