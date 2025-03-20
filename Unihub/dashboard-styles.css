@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Unique Background Colors */
+.student { background: linear-gradient(to right, #56ccf2, #2f80ed); }
+.teacher { background: linear-gradient(to right, #f2994a, #f2c94c); }
+.admin { background: linear-gradient(to right, #bb4e75, #ff758c); }
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px 20px;
+    backdrop-filter: blur(10px);
+}
+
+nav h1 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content Container */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    color: white;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.student button { background: #2f80ed; color: white; }
+.teacher button { background: #f2994a; color: white; }
+.admin button { background: #ff758c; color: white; }
+
+button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body.student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd; /* Light Blue Theme */
+}
+
+/* Container */
+.container {
+    background: rgb(255, 255, 255);
+    padding-top: 20px;
+    border-radius: 19px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* List Style */
+.list {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.list li {
+    padding: 10px;
+    background: #f1f1f1;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.attendance-table th, .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.attendance-table th {
+    background: #007BFF;
+    color: white;
+}
+
+/* Form Styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+

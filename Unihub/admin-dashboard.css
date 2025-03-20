@@ -1,0 +1,372 @@
+/* General Reset */
+* {
+    margin: 10px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body.admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd; /* Light Blue Theme */
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    color: #0d47a1;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Options Grid */
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px;
+    background: #0d47a1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+/* Logout Button */
+.logout-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background: #d32f2f;
+}
+
+.logout-btn:hover {
+    background: #b71c1c;
+}
+
+
+/* Form Styling */
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Class List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+ul li button {
+    background: #d32f2f;
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+ul li button:hover {
+    background: #b71c1c;
+}
+
+
+/* Form Styling */
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Subject List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+ul li button {
+    background: #d32f2f;
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+ul li button:hover {
+    background: #b71c1c;
+}
+
+
+/* Manage Notices Page */
+.add-notice-form {
+    margin-left: 36%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.add-notice-form input,
+.add-notice-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-notice-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.notice-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.notice-table th, .notice-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.notice-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+/* 📌 Manage Teachers Page Styles */
+.add-teacher-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.add-teacher-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-teacher-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-teacher-form button:hover {
+    background-color: #218838;
+}
+
+.teacher-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.teacher-table th, .teacher-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.teacher-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+#noTeachersMsg {
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Back Button */
+.back-btn {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #333;
+}
+
+
+
+/* 📌 Manage Students Page Styles */
+.add-student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.add-student-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-student-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-student-form button:hover {
+    background-color: #218838;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+#noStudentsMsg {
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Back Button */
+.back-btn {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #333;
+}

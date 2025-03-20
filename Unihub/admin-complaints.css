@@ -1,0 +1,105 @@
+/* 📌 Complaints Page Container */
+.complaints-container {
+    max-width: 90%;
+    margin: 90px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.complaints-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* 📌 Complaint Form */
+.complaint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.complaint-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.complaint-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.complaint-form button:hover {
+    background-color: #218838;
+}
+
+/* 📌 Complaints Table */
+.complaint-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.complaint-table th, .complaint-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.complaint-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* 📌 Delete Button */
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+/* 📌 No Complaints Message */
+#noComplaintsMsg {
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* 📌 Back Button */
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #333;
+}
+
+

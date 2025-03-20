@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Subjects</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+    <script src="basic.js" defer></script>
+</head>
+<body class="admin">
+    <div class="container">
+        <h1>Manage Subjects</h1>
+
+        <!-- Add Subject Form -->
+        <div class="form">
+            <input type="text" id="subjectName" placeholder="Enter Subject Name">
+            <button onclick="addSubject()">Add Subject</button>
+        </div>
+
+        <!-- Subject List -->
+        <ul id="subjectList"></ul>
+
+        <button onclick="goBackToAdmin()">Back to Dashboard</button>
+    </div>
+</body>
+</html>

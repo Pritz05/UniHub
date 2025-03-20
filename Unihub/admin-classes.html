@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Classes</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+    <script src="basic.js" defer></script>
+</head>
+<body class="admin">
+    <div class="container">
+        <h1>Manage Classes</h1>
+
+        <!-- Add Class Form -->
+        <div class="form">
+            <input type="text" id="className" placeholder="Enter Class Name">
+            <button onclick="addClass()">Add Class</button>
+        </div>
+
+        <!-- Class List -->
+        <ul id="classList"></ul>
+
+        <button onclick="goBackToAdmin()">Back to Dashboard</button>
+    </div>
+</body>
+</html>

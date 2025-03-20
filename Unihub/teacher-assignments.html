@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Assignments</title>
+    <link rel="stylesheet" href="teacher-dashboard.css">
+    <script src="basic.js" defer></script>
+</head>
+<body class="teacher">
+    <div class="container">
+        <h1>Assignments</h1>
+        <p>Post new assignments for students:</p>
+        <form id="assignmentForm">
+            <label for="assignmentTitle">Title:</label>
+            <input type="text" id="assignmentTitle" required>
+            
+            <label for="assignmentDetails">Details:</label>
+            <textarea id="assignmentDetails" rows="4" required></textarea>
+            
+            <button type="submit">Post Assignment</button>
+        </form>
+        <button onclick="goBackToTeacher()">Back to Dashboard</button>
+    </div>
+</body>
+</html>

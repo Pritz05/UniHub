@@ -1,0 +1,74 @@
+/* General Form Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Background Themes */
+.student { background: linear-gradient(to right, #56ccf2, #2f80ed); }
+.teacher { background: linear-gradient(to right, #f2994a, #f2c94c); }
+.admin { background: linear-gradient(to right, #bb4e75, #ff758c); }
+
+/* Form Container */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 350px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Back to Home */
+.back {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+    <script src="basic.js" defer></script>
+</head>
+<body class="admin">
+    <div class="container">
+        <h1>Welcome, Admin</h1>
+        <p>Manage the system by selecting an option below:</p>
+
+        <div class="options">
+            <button onclick="navigateTo('admin-classes.html')">🏫 Manage Classes</button>
+            <button onclick="navigateTo('admin-subjects.html')">📚 Manage Subjects</button>
+            <button onclick="navigateTo('admin-teachers.html')">👩‍🏫 Manage Teachers</button>
+            <button onclick="navigateTo('admin-students.html')">🎓 Manage Students</button>
+            <button onclick="navigateTo('admin-notices.html')">📢 Manage Notices</button>
+            <button onclick="navigateTo('admin-complaints.html')">⚠️ View Complaints</button>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="teacher-dashboard.css">
+    <script src="basic.js" defer></script>
+</head>
+<body class="teacher">
+    <div class="container">
+        <h1>Welcome, Teacher</h1>
+
+        <div class="options">
+            <button onclick="navigateTo('teacher-classes.html')">📚 Classes</button>
+            <button onclick="navigateTo('teacher-attendance.html')">📝 Attendance</button>
+            <button onclick="navigateTo('teacher-assignments.html')">📄 Assignments</button>
+            <button onclick="navigateTo('teacher-complaints.html')">⚠️ Complaints</button>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+</body>
+</html>
+    

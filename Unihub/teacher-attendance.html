@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Attendance</title>
+    <link rel="stylesheet" href="teacher-dashboard.css">
+    <script src="basic.js" defer></script>
+</head>
+<body class="teacher">
+    <div class="container">
+        <h1>Manage Attendance</h1>
+        <p>Mark student attendance below:</p>
+        <table class="attendance-table">
+            <tr>
+                <th>Student Name</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Aryan Five</td>
+                <td><input type="checkbox" unchecked> Present</td>
+            </tr>
+            <tr>
+                <td>P Diddy</td>
+                <td><input type="checkbox" unchecked> Present</td>
+            </tr>
+            <tr>
+                <td>Jeffrey Epstein </td>
+                <td><input type="checkbox" unchecked> Present</td>
+            </tr>
+        </table>
+        <button onclick="saveAttendance()">Save Attendance</button>
+        <button onclick="goBackToTeacher()">Back to Dashboard</button>
+    </div>
+</body>
+</html>

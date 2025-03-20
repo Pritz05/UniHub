@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Notices</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Manage Notices</h2>
+
+        <!-- Add Notice Form -->
+        <div class="add-notice-form">
+            <input type="text" id="noticeTitle" placeholder="Enter Notice Title">
+            <textarea id="noticeContent" placeholder="Enter Notice Content"></textarea>
+            <button id="addNoticeBtn">Add Notice</button>
+        </div>
+
+        <!-- No Notices Message -->
+        
+        <!-- Notices List -->
+        <table class="notice-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="noticeTable">
+                <!-- Notices will be added dynamically -->
+            </tbody>
+        </table>
+        
+        <p id="noNoticesMsg">No notices added yet.</p>
+        <!-- Back Button -->
+        <button onclick="goBackToAdmin()">Back to Dashboard</button>
+    </div>
+
+    <script src="admin-student-and-notices-complaints.js"></script>
+
+</body>
+</html>

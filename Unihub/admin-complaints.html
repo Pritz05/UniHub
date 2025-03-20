@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Complaints</title>
+    <link rel="stylesheet" href="admin-complaints.css">
+</head>
+<body>
+
+    <div class="complaints-container">
+        <h2>View Complaints</h2>
+
+
+        <!-- Complaints Table -->
+        <table class="complaint-table">
+            <thead>
+                <tr>
+                    <th>Complaint ID</th>
+                    <th>User</th>
+                    <th>Role</th>
+                    <th>Complaint</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="complaintsList">
+                <!-- Fake Complaints Data -->
+                <tr>
+                    <td>1</td>
+                    <td>Rahul</td>
+                    <td>Student</td>
+                    <td>The Wi-Fi is not working properly in the library.</td>
+                    <td><button class="delete-btn" onclick="deleteComplaint(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Aman</td>
+                    <td>Teacher</td>
+                    <td>Projector in Room 205 needs repair.</td>
+                    <td><button class="delete-btn" onclick="deleteComplaint(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Lichu</td>
+                    <td>Student</td>
+                    <td>Class schedules are confusing and overlap.</td>
+                    <td><button class="delete-btn" onclick="deleteComplaint(this)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- No Complaints Message -->
+        <p id="noComplaintsMsg" style="display: none;">No complaints available.</p>
+
+        <!-- Back Button -->
+        <button class="back-btn" onclick="goBackToAdmin()">Back to Dashboard</button>
+    </div>
+    <script src="admin-student-and-notices-complaints.js"></script>
+</body>
+</html>

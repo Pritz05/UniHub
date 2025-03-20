@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Role</title>
+    <link rel="stylesheet" href="role-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Select Your Role</h2>
+        <button class="role-button" onclick="redirectToForm('student')">
+            <i class="fas fa-user-graduate"></i> Student
+        </button>
+        <button class="role-button" onclick="redirectToForm('teacher')">
+            <i class="fas fa-chalkboard-teacher"></i> Teacher
+        </button>
+        <button class="role-button" onclick="redirectToForm('admin')">
+            <i class="fas fa-user-shield"></i> Admin
+        </button>
+        <button class="back-btn" onclick="navigateTo('basic.html')">🏠 Back to Home Page</button>
+    </div>
+    <script src="basic.js" defer></script>
+</body>
+</html>

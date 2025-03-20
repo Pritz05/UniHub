@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="student-styles.css">
+</head>
+<body class="student">
+    <div class="dashboard">
+        <h1>Welcome, Student!</h1>
+        
+        <div class="grid-container">
+            <div class="card" id="subjects">
+                <h2>Subjects</h2>
+                <p>View and manage your enrolled subjects.</p>
+                <button onclick="viewSubjects()">View</button>
+            </div>
+            
+            <div class="card" id="attendance">
+                <h2>Attendance</h2>
+                <p>Check your attendance records.</p>
+                <button onclick="viewAttendance()">Check</button>
+            </div>
+            
+            <div class="card" id="assignments">
+                <h2>Assignments</h2>
+                <p>View and submit your assignments.</p>
+                <button onclick="viewAssignments()">View</button>
+            </div>
+            
+            <div class="card" id="complaints">
+                <h2>Complaints</h2>
+                <p>Raise concerns and track their status.</p>
+                <button onclick="viewComplaints()">Submit</button>
+            </div>
+
+            <div class="card" id="classes">
+                <h2>Classes</h2>
+                <p>Classes for today.</p>
+                <button onclick="viewClasses()">View</button>
+            </div>
+        </div>
+        
+        <button href = "role.html"class="logout" onclick="logout('student')" >Logout</button>
+    </div>
+    <script src="basic.js" defer></script>
+</body>
+</html>

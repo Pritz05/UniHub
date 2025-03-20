@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Teachers</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Manage Teachers</h2>
+
+        <!-- Add Teacher Form -->
+        <div class="add-teacher-form">
+            <input type="text" id="teacherName" placeholder="Enter Teacher's Name">
+            <input type="text" id="teacherSubject" placeholder="Enter Subject">
+            <button id="addTeacherBtn">Add Teacher</button>
+        </div>
+
+        <!-- Teachers List -->
+        <table class="teacher-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="teacherTable">
+                <!-- Teachers will be added here dynamically -->
+            </tbody>
+        </table>
+
+        <!-- Back Button -->
+        <button onclick="goBackToAdmin()">Back to Dashboard</button>
+    </div>
+
+    <script src="basic.js"></script>
+
+</body>
+</html>
