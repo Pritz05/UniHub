@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Complaints</title>
-    <link rel="stylesheet" href="student-dashboard.css">
+    <link rel="stylesheet" href="student-dashboard.css" />
     <script src="basic.js" defer></script>
-</head>
-<body class="student">
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+  </head>
+  <body class="student">
     <div class="container">
-        <h1>Submit a Complaint</h1>
-        <form id="complaintForm">
-            <label for="complaintText">Your Complaint:</label>
-            <textarea id="complaintText" rows="5" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-        <button onclick="goBack()">Back to Dashboard</button>
+      <h1>Submit a Complaint</h1>
+      <form id="complaintForm">
+        <label for="complaintText">Write Your Complaint:</label>
+        <textarea id="complaintText" name="complaintText"></textarea>
+        <button type="submit">Submit Complaint</button>
+      </form>
+      <button onclick="goBack()">Back to Dashboard</button>
     </div>
-</body>
+    <script>
+      CKEDITOR.replace("complaintText");
+    </script>
+  </body>
 </html>
